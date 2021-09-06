@@ -1,4 +1,5 @@
 import React from "react";
+import WithRouterSample from "./WithRouterSample";
 
 const profileData = {
   jung: {
@@ -23,6 +24,7 @@ function Profile({ match }) {
         {username} ({profile.name})
       </h3>
       <p>{profile.description}</p>
+      <WithRouterSample></WithRouterSample>
     </div>
   );
 }
